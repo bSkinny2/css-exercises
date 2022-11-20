@@ -3,6 +3,7 @@
 body {
   height: 100vh;
   margin: 0;
+  padding: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
@@ -24,4 +25,39 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+/*---------*/
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+ .content {
+  text-align: center;
+  padding: 52px 0 52px 0;
+ }
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  background-color: #eeeeee;
 }
